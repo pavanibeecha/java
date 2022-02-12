@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count = "5" parallel ="tests">
+  <test  name="Test1">
+    <classes>
+      <class name="testNGPkg.ParallelExcutionTest">
+      <methods>
+      	<include name ="testMethod1"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test  name="Test2">
+    <classes>
+      <class name="testNGPkg.ParallelExcutionTest">
+      <methods>
+      	<include name ="testMethod2"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test  name="Test3">
+    <classes>
+      <class name="testNGPkg.ParallelExcutionTest">
+      <methods>
+      	<include name ="testMethod3"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test  name="Test4">
+    <classes>
+      <class name="testNGPkg.ParallelExcutionTest">
+      <methods>
+      	<include name ="testMethod4"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
