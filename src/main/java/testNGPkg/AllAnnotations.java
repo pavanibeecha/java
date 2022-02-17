@@ -6,6 +6,7 @@ public class AllAnnotations {
 
 	@BeforeSuite
 	public void beforeSuite() {
+		System.out.println(" i am in beforesuite git");
 
 		System.out.println(" i am in beforesuite");
 	}
